@@ -1,40 +1,30 @@
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-![管理アプリ](https://user-images.githubusercontent.com/64050565/83852558-f18c1a80-a74e-11ea-9235-3bd3e745f74b.png)
 
-![ruby](https://img.shields.io/badge/-ruby-red)
-![ruby on rails](https://img.shields.io/badge/-ruby%20on%20rails-orange)
-![jQuery](https://img.shields.io/badge/-jquery-green)
-![heroku](https://img.shields.io/badge/-heroku-blueviolet)
-![MySQL](https://img.shields.io/badge/-MySQL-ff69b4)
+![PHP](https://img.shields.io/badge/-PHP-yellow)
+![Larave](https://img.shields.io/badge/-Laravel-ff69b4)
+![Bootstrap4](https://img.shields.io/badge/-Bootstrap4-orange)
+![SQlite](https://img.shields.io/badge/-SQlite-9cf)
 
 
 # README
 
-## コミック管理アプリ
-自身の大好きなコミックを管理できるアプリです。
+## 💬 コミック管理アプリ
+コミック大好き！にお届けするアプリです。
+<br>自身の大好きなコミックを管理できます。
 <br>購入前の新刊コミック管理に！
 <br>読みたいコミックのメモ欄に！
-<br>使い方は、人によって多種多様です。
-
-## 💬 アプリ説明
-コミック大好き！にお届けするアプリです。
-使い方
-<br>もちろん、気になるコミックの名前をストックするメモに使う
+<br>使い方は、人によって使い方は自由です。
 
 ## 🎨 DEMO
-![memoapp説明用１](https://user-images.githubusercontent.com/64050565/83348378-ee67e780-a366-11ea-8933-6b60b35f84cc.png)
+![コミック管理１](https://user-images.githubusercontent.com/64050565/85219310-98261b80-b3dd-11ea-88e8-b8828478f99f.png)
 
 ## 💬 開発意図
-【対象者】
 <br>読んでいるコミックの種類が多すぎて、新刊発売を忘れる時がしばしば。
-<br>そんな時は、こちらのアプリをコミックメモとして活用しましょう。
+<br>私自身は、アニメ版も見るので、その放送日も抑えたい。
+<br>
+<br>そんな時に、アプリをコミックメモとして活用できないかと考えました。
 <br>【使用例】
 <br>①新刊発売の日にちを忘れてしまう
 <br>（書店に寄っても、マイナーなタイトルは店先に置かれていないこともある）
