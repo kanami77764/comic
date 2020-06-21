@@ -63,7 +63,7 @@
 												{{ method_field('DELETE') }}
 
 												<button type="submit" class="btn btn-danger">
-													<i class="fa fa-trash"></i>完了
+													<i class="fa fa-trash"></i>削除
 												</button>
 											</form>
 										</td>
