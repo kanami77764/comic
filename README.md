@@ -1,4 +1,4 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/64050565/85219976-f9042280-b3e2-11ea-8d1c-42b7e2d797f0.png" ></p>
 
 <p align="center">
 
@@ -13,9 +13,8 @@
 ## 💬 コミック管理アプリ
 コミック大好き！にお届けするアプリです。
 <br>自身の大好きなコミックを管理できます。
-<br>購入前の新刊コミック管理に！
-<br>読みたいコミックのメモ欄に！
-<br>使い方は、人によって使い方は自由です。
+<br>購入前の新刊コミック管理に！　読みたいコミックのメモ欄に！
+<br>お好みで、自由自在にご使用いただけます
 
 ## 🎨 DEMO
 ![コミック管理１](https://user-images.githubusercontent.com/64050565/85219310-98261b80-b3dd-11ea-88e8-b8828478f99f.png)
