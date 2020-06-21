@@ -5,7 +5,7 @@
 		<div class="col-sm-offset-2 col-sm-8">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					新たに書籍を追加する
+					新たにコミックを追加する
 				</div>
 
 				<div class="panel-body">
@@ -18,7 +18,7 @@
 
 						<!-- Book Name -->
 						<div class="form-group">
-							<label for="task-name" class="col-sm-3 control-label">書籍タイトル</label>
+							<label for="task-name" class="col-sm-3 control-label">新刊タイトル</label>
 
 							<div class="col-sm-6">
 								<input type="text" name="name" id="book-name" class="form-control" value="{{ old('book') }}">
@@ -28,8 +28,8 @@
 						<!-- Add Book Button -->
 						<div class="form-group">
 							<div class="col-sm-offset-3 col-sm-6">
-								<button type="submit" class="btn btn-default">
-									<i class="fa fa-plus"></i>本を追加する
+								<button type="submit" class="btn btn-success">
+									<i class="fa fa-plus "></i>コミックを追加する
 								</button>
 							</div>
 						</div>
@@ -41,13 +41,13 @@
 			@if (count($books) > 0)
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						書籍一覧
+						新刊一覧
 					</div>
 
 					<div class="panel-body">
 						<table class="table table-striped task-table">
 							<thead>
-								<th>書籍タイトル</th>
+								<th>新刊タイトル</th>
 								<th>&nbsp;</th>
 							</thead>
 							<tbody>
