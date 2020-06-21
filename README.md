@@ -6,74 +6,116 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+![管理アプリ](https://user-images.githubusercontent.com/64050565/83852558-f18c1a80-a74e-11ea-9235-3bd3e745f74b.png)
 
-## About Laravel
+![ruby](https://img.shields.io/badge/-ruby-red)
+![ruby on rails](https://img.shields.io/badge/-ruby%20on%20rails-orange)
+![jQuery](https://img.shields.io/badge/-jquery-green)
+![heroku](https://img.shields.io/badge/-heroku-blueviolet)
+![MySQL](https://img.shields.io/badge/-MySQL-ff69b4)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# README
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## コミック管理アプリ
+自身の大好きなコミックを管理できるアプリです。
+<br>購入前の新刊コミック管理に！
+<br>読みたいコミックのメモ欄に！
+<br>使い方は、人によって多種多様です。
 
-## Learning Laravel
+## 💬 アプリ説明
+コミック大好き！にお届けするアプリです。
+使い方
+<br>もちろん、気になるコミックの名前をストックするメモに使う
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🎨 DEMO
+![memoapp説明用１](https://user-images.githubusercontent.com/64050565/83348378-ee67e780-a366-11ea-8933-6b60b35f84cc.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 💬 開発意図
+【対象者】
+<br>読んでいるコミックの種類が多すぎて、新刊発売を忘れる時がしばしば。
+<br>そんな時は、こちらのアプリをコミックメモとして活用しましょう。
+<br>【使用例】
+<br>①新刊発売の日にちを忘れてしまう
+<br>（書店に寄っても、マイナーなタイトルは店先に置かれていないこともある）
+<br>②友達におすすめされたコミック名のメモに使える（最近は長いタイトルが多い）
+<br>③コミック→アニメ化情報もメモできる
+<br>
+<br>このメモを見るだけで、少しでもワクワクできれば幸いです！
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 📦 実装機能
+### "コミック管理アプリ"の機能
+<br>＊メモ投稿機能
+<br>＊メモを削除できる機能
+<br>＊メモはデータベースに管理、閲覧できる機能
+<br>＊ログイン機能実装
+<br>
+<br>
+## 📦 工夫した点
+<br>＊メモ一覧の見た目
+<br>　⇨bootstrapを使用し、一目でわかるようなシンプルな実装を心がけました。
+<br>＊メモ削除の機能
+<br>　⇨ユーザーとして、購入、またはメモの役割を完了したコミックは削除できる方が使いやすいと考えました。
+<br>＊ログイン機能実装
+<br>　⇨Laravelを初めて使用するため、他の言語との違いを学習するために、実装しました。
+<br>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-- [云软科技](http://www.yunruan.ltd/)
+## 📦 今後の実装したい機能
+<br>＊発売日など、日付を追加できる機能
+<br>＊メモの編集機能
+<br>＊コミックと連動して、アニメ化の期限も管理できる機能
+<br>
 
-## Contributing
+## 💬 使っている言語、フレームワーク
+＊PHP 7.3.19
+<br>＊Laravel Installer 3.1.0
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+## 💬 インストール方法
+```
+$ git clone https://github.com/kanami77764/memos_app.git
+$ cd bookapp2
+$ brew install composer
+$ composer insall
+$ cp .env.example .env
+$ cd php artisan key:generate
+$ touch database/database.sqlite
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+ .envファイル設定
+~略~
+DB_CONNECTION=sqlite
+# DB_HOST=127.0.0.1
+# DB_PORT=3306
+# DB_DATABASE=laravel
+# DB_USERNAME=root
+# DB_PASSWORD=
+~略~
 
-## Security Vulnerabilities
+$ php artisan migrate
+$ php artisan serve
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 👀 作成者
+kanami66674
 
-## License
+## 💬 データベース
+### book table
+| Columm | Type | Option |
+|:------:|:----:|:------:|
+|book|string|null: false|
+|user_id|integer|null: false, foreign_key: true|
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+#### Association
+- belongs_to :user
+
+
+### User table
+| Column | Type | Option |
+|:------:|:----:|:------:|
+|name|string|null:false|
+|email|string|null: false ,add_index  unique: ture|
+|password|string|null: false|
+
+#### Association
+- has_many :books
